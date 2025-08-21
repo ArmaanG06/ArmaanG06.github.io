@@ -12,6 +12,24 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="grid-bg">
+  <!-- Background -->
+    <div class="background">
+      <svg class="chart-bg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polyline 
+          points="0,60 10,65 20,50 30,55 40,35 50,40 60,20 70,30 80,15 90,25 100,10"
+          fill="none" 
+          stroke="var(--grid)" 
+          stroke-width="0.5" 
+          opacity="0.15">
+          <animate attributeName="points" dur="8s" repeatCount="indefinite"
+            values="
+              0,60 10,65 20,50 30,55 40,35 50,40 60,20 70,30 80,15 90,25 100,10;
+              0,65 10,55 20,60 30,50 40,30 50,35 60,25 70,20 80,10 90,15 100,5;
+              0,60 10,65 20,50 30,55 40,35 50,40 60,20 70,30 80,15 90,25 100,10" />
+        </polyline>
+      </svg>
+    </div>
+
   <!-- NAV -->
   <nav class="nav">
     <div class="nav-wrap">
@@ -119,7 +137,8 @@
           <div>
             <h3>Wilfrid Laurier University — BBA</h3>
             <div class="muted">Business Admin · Finance Specialization</div>
-            <div class="muted">GPA 3.9/4.0</div>
+            <div class="muted">2024-2029</div>
+            <div class="muted">GPA 3.9/4.0</div>        
             <div class="muted">Honors: 
               <ul>
                 <li>President's Gold Scholarship</li>
@@ -147,8 +166,8 @@
         <article class="card edu reveal" data-edu>
           <div>
             <h3>Wilfrid Laurier University — BSc</h3>
-            <div class="muted">Computer Science</div>
-            <div class="muted">Minor in Math</div>
+            <div class="muted">Computer Science · Minor in Math</div>
+            <div class="muted">2024-2029</div>
             <div class="muted">GPA 3.9/4.0</div>
           </div>
           <div>
@@ -156,7 +175,9 @@
             <div class="tagz">
               <span class="tag">Data Structures</span>
               <span class="tag">Algorithms</span>
-              <span class="tag">Probability & Stats</span>
+              <span class="tag">Math for Finance</span>
+              <span class="tag">Linear Algebra</span>
+              <span class="tag">Calculus</span>
               <span class="tag">Python Programming</span>
             </div>
             <div style="margin:10px 0 8px; font-weight:700">Technical</div>
@@ -196,6 +217,22 @@
         </article>
         <article class="card work reveal">
           <div class="head">
+            <h3 style="margin:0 0 6px">Equity Trader</h3>
+            <h3 style="margin:0 0 6px; font-size: medium;">Self Employed</h3>
+            <div class="muted">July 2022 - Present</div>
+          </div>
+          <p class="muted">Managed personal and family investment and margin accounts to see 15%+ YoY returns</p>
+          <div class="toggle">Details</div>
+          <div class="more">
+            <ul>
+              <li>65% ROI in 2 years through strategic trading and analysis</li>
+              <li>Invested early in AMD, NVIDIA, and Lockheed Martin.</li>
+              <li>Balanced risk with ETFs like VOO and QQQ, outperforming benchmarks</li>
+            </ul>
+          </div>
+        </article>
+        <article class="card work reveal">
+          <div class="head">
             <h3 style="margin:0 0 6px">Veterinary Receptionist</h3>
             <h3 style="margin:0 0 6px; font-size: medium;">Animal Hospital of East Barrie</h3>
             <div class="muted">Sept 2022 - Sept 2024</div>
@@ -226,7 +263,6 @@
             </ul>
           </div>
         </article>
-        
       </div>
     </div>
   </section>
@@ -238,7 +274,7 @@
       <div class="timeline reveal">
         <div class="t-item">
           <strong>VP Corporate Relations — Laurier Sales Association</strong>
-          <div class="muted">2025 – 2026</div>
+          <div class="muted"> Aug 2025 - Apr 2026</div>
           <div class="hover">
             <ul>
               <li>Outreach to sponsors and manage partnerships</li>
@@ -247,31 +283,32 @@
           </div>
         </div>
         <div class="t-item">
-          <strong>VP Corporate Relations — Laurier Sales Association</strong>
-          <div class="muted">2025 – 2026</div>
+          <strong>Executive VP of HR — Enactus Laurier </strong>
+          <div class="muted">Jan 2025 - Apr 2025</div>
           <div class="hover">
             <ul>
-              <li>Outreach to sponsors and manage partnerships</li>
-              <li>Coordinate with directors and maintain contracts</li>
+              <li>Supporting the smooth functioning of our social enterprises, including Verdana Technologies and Kuponya Housing, to maximize their impact.</li>
+              <li>Leading and guiding the HR directors to ensure the completion of key deliverables and projects.</li>
             </ul>
           </div>
         </div>
         <div class="t-item">
-          <strong>VP Corporate Relations — Laurier Sales Association</strong>
-          <div class="muted">2025 – 2026</div>
+          <strong>VP of Operations — Wilfrid Laurier House Council</strong>
+          <div class="muted">Sept 2024 - Apr 2025</div>
           <div class="hover">
             <ul>
-              <li>Outreach to sponsors and manage partnerships</li>
-              <li>Coordinate with directors and maintain contracts</li>
+              <li>Oversee and manage the building's financial planning, ensuring a balanced budget and appropriate allocation of funds to various initiatives and events</li>
+              <li>Plan, organize, and execute community events that foster engagement and a sense of community within the building</li>
             </ul>
           </div>
         </div>
         <div class="t-item">
-          <strong>Peer Tutor — Math & Finance</strong>
-          <div class="muted">2024 – Present</div>
+          <strong>Vice President — Eastview DECA</strong>
+          <div class="muted">2023 - 2024</div>
           <div class="hover">
             <ul>
-              <li>Helped students with calculus, probability, and DCFs</li>
+              <li>Actively participated in regional competitions, where I showcased my entrepreneurial skills and business acumen, successfully advancing to the provincial level.</li>
+              <li>Contributed to the development and implementation of strategic plans to promote entrepreneurship within the club, fostering an environment of creativity and innovation</li>
             </ul>
           </div>
         </div>
@@ -281,60 +318,139 @@
 
   <!-- PROJECTS -->
   <section id="projects">
-    <div class="wrap">
-      <h2 class="section-title">Projects & Competitions</h2>
-      <div class="grid proj-grid">
-        <article class="card proj reveal">
-          <div class="head">
-            <h3 style="margin:0">IBFetcher — Historical Data Tool</h3>
-            <span class="pill">Python</span>
-          </div>
-          <p class="muted">Modular IBAPI-based OHLCV downloader.</p>
-          <a class="btn" href="#" onclick="return false">GitHub</a>
-          <div class="toggle" style="margin-top:8px">Read more</div>
-          <div class="accordion">
-            <ul>
-              <li>Batch fetch with rate limiting and retries</li>
-              <li>Flexible schema, parquet/csv output</li>
-              <li>Plug-in tickers, intervals, and providers</li>
-            </ul>
-          </div>
-        </article>
-        <article class="card proj reveal">
-          <div class="head">
-            <h3 style="margin:0">Quant Models — Black‑Scholes + Monte Carlo</h3>
-            <span class="pill">Finance</span>
-          </div>
-          <p class="muted">Pricing, Greeks, and path simulations with tests.</p>
-          <a class="btn" href="#" onclick="return false">GitHub</a>
-          <div class="toggle" style="margin-top:8px">Read more</div>
-          <div class="accordion">
-            <ul>
-              <li>Analytic BS formulas with Greeks</li>
-              <li>MC paths with antithetic variates</li>
-              <li>Unit tests and reproducible seeds</li>
-            </ul>
-          </div>
-        </article>
-        <article class="card proj reveal">
-          <div class="head">
-            <h3 style="margin:0">ASG Microfund</h3>
-            <span class="pill">Stat‑Arb</span>
-          </div>
-          <p class="muted">Backtested factor portfolio with reporting.</p>
-          <a class="btn" href="#" onclick="return false">GitHub</a>
-          <div class="toggle" style="margin-top:8px">Read more</div>
-          <div class="accordion">
-            <ul>
-              <li>Momentum and quality factors</li>
-              <li>Performance vs. benchmark dashboard</li>
-              <li>Risk controls and slippage modeling</li>
-            </ul>
-          </div>
-        </article>
-      </div>
+  <div class="wrap">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid proj-grid">
+      <article class="card proj reveal">
+        <div class="head">
+          <h3 style="margin:0">ASG Microfund</h3>
+          <span class="pill">Algo-Trading</span>
+        </div>
+        <p class="muted">Backtested a 3-strategy based portfolio with reporting and risk management.</p>
+        <a class="btn" href="https://github.com/ArmaanG06/ASG-Microfund" target="_blank" >GitHub</a>
+        <div class="toggle" style="margin-top:8px">Read more</div>
+        <div class="accordion">
+          <ul>
+            <li>3 strategies included: Factors based, mean reversion and momentum trading</li>
+            <li>Performance vs. benchmark streamlit dashboard to help users/clients input there requirements</li>
+            <li>Risk controls and weighted management to ensure portfolio stays within risk tolerance</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card proj reveal">
+        <div class="head">
+          <h3 style="margin:0">IBFetcher — Historical Data Tool</h3>
+          <span class="pill">Python</span>
+        </div>
+        <p class="muted">Modular IBAPI-based OHLCV downloader.</p>
+        <a class="btn" href="https://github.com/ArmaanG06/IBFetcher" target="_blank" >GitHub</a>
+        <div class="toggle" style="margin-top:8px">Read more</div>
+        <div class="accordion">
+          <ul>
+            <li> Fetch single ticker or batch of tickers data with retries using IBAPI</li>
+            <li>Flexible schema, csv output with automated retrieve or fetch decision making</li>
+            <li>Plug-in tickers, intervals, and and tick size to allow for maximum flexibility</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card proj reveal">
+        <div class="head">
+          <h3 style="margin:0">Quant Models — Black-Scholes + Monte Carlo</h3>
+          <span class="pill">Finance</span>
+        </div>
+        <p class="muted">Pricing, Greeks, and path simulations with tests.</p>
+        <a class="btn" href="https://github.com/ArmaanG06/Quant-Models" target="_blank">GitHub</a>
+        <div class="toggle" style="margin-top:8px">Read more</div>
+        <div class="accordion">
+          <ul>
+            <li>Implemented analytic Black-Scholes formulas with full Greek calculations</li>
+            <li>Developed Monte Carlo simulation paths using antithetic variates</li>
+            <li>Designed robust unit tests with reproducible random seeds</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card proj reveal">
+        <div class="head">
+          <h3 style="margin:0">TSLA AI Trader</h3>
+          <span class="pill">ML</span>
+        </div>
+        <p class="muted">Built Linear regression and random forest models</p>
+        <a class="btn" href="https://github.com/ArmaanG06/TSLA_AI_Trader" target="_blank">GitHub</a>
+        <div class="toggle" style="margin-top:8px">Read more</div>
+        <div class="accordion">
+          <ul>
+            <li>Built a machine learning pipeline to forecast Tesla (TSLA) stock prices using Linear Regression and Random Forest models</li>
+            <li>Made a custom backtesting framework simulating trading strategies based on model predictions</li>
+            <li>Analyzed model performance through statistical metrics</li>
+          </ul>
+        </div>
+      </article>
     </div>
-  </section>
+  </div>
+</section>
+
+<section id="competitions">
+  <div class="wrap">
+    <h2 class="section-title">Competitions</h2>
+    <div class="grid proj-grid">
+      <article class="card proj reveal">
+        <div class="head">
+          <h3 style="margin:0">2nd Place — Hawk Tank Sales Pitch Competition</h3>
+          <span class="pill">Sales & Investments</span>
+        </div>
+        <p class="muted">
+          Placed 2nd in a Fidelity-sponsored competition, pitching an innovative portfolio solution addressing stock-bond correlation in volatile markets.
+        </p>
+        <a class="btn" href="https://www.linkedin.com/in/armaan-gandhara/" target="_blank">Details</a>
+        <div class="toggle" style="margin-top:8px">Read more</div>
+        <div class="accordion">
+          <ul>
+            <li>Designed the "Odyssey Investment Portfolio" blending ETFs, equities, bonds, crypto, metals, and derivatives</li>
+            <li>Presented strategy to Fidelity professionals, highlighting resilience and risk management</li>
+            <li>Collaborated with teammates to deliver a compelling sales pitch under competition pressure</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card proj reveal">
+        <div class="head">
+          <h3 style="margin:0">3rd Place — CPA Ethics Case Competition</h3>
+          <span class="pill">Business Consulting</span>
+        </div>
+        <p class="muted">
+          Achieved 3rd place out of 69 teams in a CPA Ontario competition focused on ethical decision-making in business.
+        </p>
+        <a class="btn" href="https://www.linkedin.com/in/armaan-gandhara/" target="_blank">Details</a>
+        <div class="toggle" style="margin-top:8px">Read more</div>
+        <div class="accordion">
+          <ul>
+            <li>Analyzed ethical implications of an acquisition case</li>
+            <li>Delivered structured consulting recommendations under time pressure</li>
+            <li>Collaborated as part of a 3–4 member Lazaridis School team</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card proj reveal">
+        <div class="head">
+          <h3 style="margin:0">Semi-Finalist — PC Health App Live Case Competition</h3>
+          <span class="pill">Healthcare Strategy</span>
+        </div>
+        <p class="muted">
+          Ranked top 50 out of 250+ teams in a live business case competition hosted by the Lazaridis School of Business, focused on innovation in the healthcare industry.
+        </p>
+        <a class="btn" href="https://www.linkedin.com/in/armaan-gandhara/" target="_blank">Details</a>
+        <div class="toggle" style="margin-top:8px">Read more</div>
+        <div class="accordion">
+          <ul>
+            <li>Developed strategic solutions addressing healthcare app challenges</li>
+            <li>Collaborated in a diverse team to deliver actionable recommendations</li>
+            <li>Received feedback from senior industry executives and faculty mentors</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
 
   <!-- SKILLS -->
   <section id="skills">
@@ -344,30 +460,48 @@
         <div class="card reveal">
           <h3 style="margin-top:0">Finance</h3>
           <div class="tagz" style="margin-bottom:10px">
-            <span class="tag">DCF</span><span class="tag">LBO</span><span class="tag">Derivatives</span><span class="tag">Risk</span>
+            <span class="tag">DCF Modeling</span>
+            <span class="tag">3 Statement Analysis</span>
+            <span class="tag">Derivatives</span>
+            <span class="tag">Risk</span>
+            <span class="tag">Capital Budgeting</span>
+            <span class="tag">Equity Analysis</span>
           </div>
-          <div class="bar"><span data-progress="86"></span></div>
+          <div class="bar"><span data-progress="100"></span></div>
         </div>
         <div class="card reveal">
           <h3 style="margin-top:0">Programming</h3>
           <div class="tagz" style="margin-bottom:10px">
-            <span class="tag">Python</span><span class="tag">C++</span><span class="tag">Pandas</span><span class="tag">Git</span>
+            <span class="tag">Python</span>
+            <span class="tag">C</span>
+            <span class="tag">Java</span>
+            <span class="tag">x86 Assembly</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Numpy</span>
+            <span class="tag">Scikit-learn</span>
           </div>
-          <div class="bar"><span data-progress="80"></span></div>
+          <div class="bar"><span data-progress="100"></span></div>
         </div>
         <div class="card reveal">
           <h3 style="margin-top:0">Math</h3>
           <div class="tagz" style="margin-bottom:10px">
-            <span class="tag">Linear Algebra</span><span class="tag">Probability</span><span class="tag">Optimization</span>
+            <span class="tag">Linear Algebra</span>
+            <span class="tag">Probability</span>
+            <span class="tag">Optimization</span>
+            <span class="tag">Calculus</span>
+            <span class="tag">Time Value of Money</span>
           </div>
-          <div class="bar"><span data-progress="75"></span></div>
+          <div class="bar"><span data-progress="100"></span></div>
         </div>
         <div class="card reveal">
           <h3 style="margin-top:0">Excel/Office</h3>
           <div class="tagz" style="margin-bottom:10px">
-            <span class="tag">Excel</span><span class="tag">VBA</span><span class="tag">PowerPoint</span>
+            <span class="tag">Excel</span>
+            <span class="tag">VBA</span>
+            <span class="tag">PowerPoint</span>
+            <span class="tag">Excel Modeling</span>
           </div>
-          <div class="bar"><span data-progress="88"></span></div>
+          <div class="bar"><span data-progress="100"></span></div>
         </div>
       </div>
     </div>
@@ -399,5 +533,8 @@
     © <span id="yr"></span> Armaan Gandhara • Built with vanilla HTML/CSS/JS • GitHub Pages ready
   </footer>
   <script src="app.js"></script>
+  <canvas id="montecarlo-bg" aria-hidden="true"></canvas>
+  <script src="montecarlo-bg.js"></script>
+
 </body>
 </html>
