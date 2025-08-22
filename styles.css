@@ -90,6 +90,8 @@ body{
 /* About */
 .about{
   margin-top: 2%;
+  width: 1100px;
+  max-width:95vw;
 }
 
 /* Hero */
@@ -103,11 +105,28 @@ body{
 .btn{border:1px solid rgba(255,255,255,.08); background:linear-gradient(180deg, #121a38, #0f1734); color:var(--ink); padding:10px 14px; border-radius:12px; display:inline-flex; align-items:center; gap:8px; text-decoration:none; font-weight:600; transition:transform var(--speed), box-shadow var(--speed), border-color var(--speed)}
 .btn:hover{transform:translateY(-2px); box-shadow:var(--glow); border-color:rgba(255,255,255,.18)}
 .cta-primary{background:linear-gradient(135deg, rgba(22,242,179,.1), rgba(45,168,255,.08)); border:1px solid rgba(45,168,255,.25)}
-.ticker{margin-top:18px; width: 87vw;border-top:1px solid rgba(255,255,255,.06); border-bottom:1px solid rgba(255,255,255,.06); overflow:hidden; background:rgba(12,18,36,.6);}
+.ticker{margin-top:18px; width: 1100px; max-width:95vw ;border-top:1px solid rgba(255,255,255,.06); border-bottom:1px solid rgba(255,255,255,.06); overflow:hidden; background:rgba(12,18,36,.6);}
 .ticker .move{display:flex; gap:40px; padding:10px 0; animation:ticker 30s linear infinite}
 .tick{font-family:"JetBrains Mono",monospace; font-size:.9rem}
 .up{color:var(--acc1)} .down{color:#ff5e7a}
 @keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+.profile-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic {
+  position:relative;
+  right: 200%;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255,255,255,.1);
+  box-shadow: var(--glow);
+}
 
 /* Section base */
 section{padding:70px 18px}
